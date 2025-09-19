@@ -7,7 +7,7 @@ int n, a[101], b[101], ans;
 void init(int a[]) {
     string s;
     cin >> n >> s;
-    memset(a, 0, sizeof(a));
+    memset(a, 0, sizeof(int) * 101);
     a[0] = s.length();
     for (int i = 1; i <= a[0]; i++) {
         if(s[a[0] - i] >= '0' && s[a[0] - i] <= '9') {
