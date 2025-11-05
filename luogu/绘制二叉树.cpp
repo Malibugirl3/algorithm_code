@@ -60,7 +60,7 @@ int main() {
 
     int leny = 1 << (n - 2);
     leny = leny * 6 - 1;
-    // cout << leny << endl;;
+    // cout << leny << endl;
     int lenx = leny / 2 + 1;
     // cout << 1 << " " << lenx << " " << leny << endl;
     canvas.resize(lenx + 1, vector<char>(leny + 1, ' '));

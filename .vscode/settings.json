@@ -107,6 +107,7 @@
     "typeinfo": "cpp",
     "ctime": "cpp",
     "stack": "cpp",
-    "set": "cpp"
+    "set": "cpp",
+    "unordered_set": "cpp"
   }
 }
